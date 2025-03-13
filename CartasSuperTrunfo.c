@@ -1,22 +1,77 @@
 #include <stdio.h>
+ int main(){
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+    char estado1 ='A';
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+    char codigo1[29] = "01";
+
+    char cidade1[29] = "Bahia";
+
+    int populaçao1 = 1198121;
+
+    float area1 = 238935;
+
+    float pib1 = 11548936547;
+
+    int pontos1 = 56;
+
     
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+
+    printf("Carta 1\n");
+
+    printf("Estado: %c\n", estado1);
+
+    printf("Código: %s\n", codigo1);
+
+    printf("Nome da Cidade: %s\n", cidade1);
+
+    printf("População: %d\n", populaçao1);
+
+    printf("Área: %f\n", area1);
+
+    printf("PIB: %f\n", pib1);
+
+    printf("Pontos turísticos: %d\n\n", pontos1);
+
+
+
+
+
+
+
+    char estado2 ='B';
+
+    char codigo2[27] = "02";
+
+    char cidade2[20] = "Alagoas";
+
+    int populaçao2 = 1897456;
+
+    float area2 = 986543;
+
+    float pib2 = 73587965432;
+
+    int pontos2 = 69;
+
     
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+
+    printf("Carta 2\n");
+
+    printf("Estado: %c\n", estado2);
+
+    printf("Código: %s\n", codigo2);
+
+    printf("Nome da Cidade: %s\n", cidade2);
+
+    printf("População: %d\n", populaçao2);
+
+    printf("Área: %f\n", area2);
+
+    printf("PIB: %f\n", pib2);
+
+    printf("Pontos turísticos: %d", pontos2);
+
+
 
     return 0;
 }
